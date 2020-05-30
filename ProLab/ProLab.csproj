@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8D5D579-8714-44A3-B98A-7C490A38CFBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProLab</RootNamespace>
+    <AssemblyName>ProLab</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>C:\Users\BadBoy\Desktop\MySetupFile\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionAdventure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActionAdventure.Designer.cs">
+      <DependentUpon>ActionAdventure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anime.Designer.cs">
+      <DependentUpon>Anime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriesActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CategoriesActivity.Designer.cs">
+      <DependentUpon>CategoriesActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildFamily.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildFamily.Designer.cs">
+      <DependentUpon>ChildFamily.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comedy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comedy.Designer.cs">
+      <DependentUpon>Comedy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Documentary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documentary.Designer.cs">
+      <DependentUpon>Documentary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drama.Designer.cs">
+      <DependentUpon>Drama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginActivity.Designer.cs">
+      <DependentUpon>LoginActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainActivity.Designer.cs">
+      <DependentUpon>MainActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player.Designer.cs">
+      <DependentUpon>Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealityProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealityProgram.Designer.cs">
+      <DependentUpon>RealityProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterActivity.Designer.cs">
+      <DependentUpon>RegisterActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Romantic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Romantic.Designer.cs">
+      <DependentUpon>Romantic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScienceFictionFantastic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScienceFictionFantastic.Designer.cs">
+      <DependentUpon>ScienceFictionFantastic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScienceNature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScienceNature.Designer.cs">
+      <DependentUpon>ScienceNature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thriller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thriller.Designer.cs">
+      <DependentUpon>Thriller.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActionAdventure.resx">
+      <DependentUpon>ActionAdventure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anime.resx">
+      <DependentUpon>Anime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoriesActivity.resx">
+      <DependentUpon>CategoriesActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildFamily.resx">
+      <DependentUpon>ChildFamily.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comedy.resx">
+      <DependentUpon>Comedy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documentary.resx">
+      <DependentUpon>Documentary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drama.resx">
+      <DependentUpon>Drama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginActivity.resx">
+      <DependentUpon>LoginActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainActivity.resx">
+      <DependentUpon>MainActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player.resx">
+      <DependentUpon>Player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RealityProgram.resx">
+      <DependentUpon>RealityProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterActivity.resx">
+      <DependentUpon>RegisterActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Romantic.resx">
+      <DependentUpon>Romantic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScienceFictionFantastic.resx">
+      <DependentUpon>ScienceFictionFantastic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScienceNature.resx">
+      <DependentUpon>ScienceNature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thriller.resx">
+      <DependentUpon>Thriller.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\netflixLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\BiziHatirla.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Dangal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Delibal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\KardesimBenim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\playButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pauseButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\AssassinsCreed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\RecepIvedik6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TheMask.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TheDarkKnight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\SherlockHolmes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TransformersAgeofExtinction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\SungerBob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\AngryBirds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TheBossBabyBackinBusiness.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Pokemon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Sirinler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\AlvinveSincaplar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\ScoobyDoo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\KungFuPanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\MrBeanTatilde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Kuscular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\MissionBlue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\DreamBig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\ChasingCoral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\72SevimliHayvan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\APlasticOcean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\ArifV216.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Atiye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\BasketballOrNothing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\BenEfsaneyim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\BeniBoyleSev.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Beyblade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\BlackList.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\CarMasters.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\CharlieninCikolataFabrikasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Criminal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\DancingWithTheBirds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\DaVinciSifresi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\DirilisErtugrul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\DunyaninEnSiradisiEvleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Ejderhalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\FantastikCanavarlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Frankestein.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Gezegenimiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\GrandDesigns.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Gravity.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\HarryPotterOlümYadigarları.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\HowIMetYourMother.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Inception.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Interstellar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Jaws.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\JurassicPark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\JurassicWorld.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\KungFuPandaMuhtesemSirlar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\LeylaileMecnun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\LOTRTheReturnoftheKing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\LOTRTwoTowers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\MarstaKesif.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\MarwelsIronFist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\MasaveKocaAyi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\MegaZeka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\NinjaKaplumbagalar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\OrumcekAdam.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Pandemic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\PK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\PredictionByTheNumbers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Shrek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\SiradisiKulubeler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\SonicX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\StrangerTings.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TheBigFamilyCooking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TheLastManOnTheMoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TheOriginals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\TrolAvcilarArcadiaHikayeleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="movies\Twilight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

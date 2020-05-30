@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Pokemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Pokemon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pauseButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pauseButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MrBeanTatilde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MrBeanTatilde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssassinsCreed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\AssassinsCreed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kuscular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Kuscular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KardesimBenim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\KardesimBenim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransformersAgeofExtinction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TransformersAgeofExtinction.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SonicX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SonicX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChasingCoral" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\ChasingCoral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlvinveSincaplar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\AlvinveSincaplar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sirinler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Sirinler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KungFuPanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\KungFuPanda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BiziHatirla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\BiziHatirla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dangal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Dangal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SungerBob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SungerBob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheBossBabyBackinBusiness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheBossBabyBackinBusiness.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDarkKnight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheDarkKnight.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SherlockHolmes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SherlockHolmes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MissionBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MissionBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScoobyDoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\ScoobyDoo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delibal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Delibal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KardesimBenim1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\KardesimBenim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngryBirds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\AngryBirds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DreamBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\DreamBig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="netflixLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\netflixLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecepIvedik6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\RecepIvedik6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheMask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheMask.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\playButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beyblade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Beyblade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="72SevimliHayvan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\72SevimliHayvan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlvinveSincaplar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\AlvinveSincaplar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngryBirds1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\AngryBirds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APlasticOcean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\APlasticOcean.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArifV216" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\ArifV216.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AssassinsCreed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\AssassinsCreed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atiye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Atiye.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BasketballOrNothing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\BasketballOrNothing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BenEfsaneyim" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\BenEfsaneyim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeniBoyleSev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\BeniBoyleSev.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beyblade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Beyblade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BiziHatirla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\BiziHatirla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\BlackList.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CarMasters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\CarMasters.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CharlieninCikolataFabrikasi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\CharlieninCikolataFabrikasi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChasingCoral1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\ChasingCoral.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Criminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Criminal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DancingWithTheBirds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\DancingWithTheBirds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dangal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Dangal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DaVinciSifresi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\DaVinciSifresi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delibal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Delibal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DirilisErtugrul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\DirilisErtugrul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DreamBig1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\DreamBig.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DunyaninEnSiradisiEvleri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\DunyaninEnSiradisiEvleri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ejderhalar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Ejderhalar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FantastikCanavarlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\FantastikCanavarlar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frankestein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Frankestein.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gezegenimiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Gezegenimiz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrandDesigns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\GrandDesigns.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gravity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Gravity.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HarryPotterOlümYadigarları" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\HarryPotterOlümYadigarları.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HowIMetYourMother" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\HowIMetYourMother.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inception" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Inception.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interstellar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Interstellar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jaws" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Jaws.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JurassicPark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\JurassicPark.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JurassicWorld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\JurassicWorld.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KardesimBenim2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\KardesimBenim.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KungFuPanda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\KungFuPanda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KungFuPandaMuhtesemSirlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\KungFuPandaMuhtesemSirlar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kuscular1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Kuscular.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeylaileMecnun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\LeylaileMecnun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOTRTheReturnoftheKing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\LOTRTheReturnoftheKing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOTRTwoTowers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\LOTRTwoTowers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarstaKesif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MarstaKesif.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarwelsIronFist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MarwelsIronFist.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MasaveKocaAyi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MasaveKocaAyi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MegaZeka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MegaZeka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MissionBlue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MissionBlue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MrBeanTatilde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\MrBeanTatilde.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NinjaKaplumbagalar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\NinjaKaplumbagalar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrumcekAdam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\OrumcekAdam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pandemic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Pandemic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\PK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pokemon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Pokemon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PredictionByTheNumbers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\PredictionByTheNumbers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecepIvedik61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\RecepIvedik6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScoobyDoo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\ScoobyDoo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SherlockHolmes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SherlockHolmes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shrek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Shrek.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SiradisiKulubeler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SiradisiKulubeler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sirinler1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Sirinler.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SonicX1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SonicX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StrangerTings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\StrangerTings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SungerBob1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\SungerBob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheBigFamilyCooking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheBigFamilyCooking.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheBossBabyBackinBusiness1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheBossBabyBackinBusiness.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheDarkKnight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheDarkKnight.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheLastManOnTheMoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheLastManOnTheMoon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheMask1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheMask.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheOriginals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TheOriginals.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TransformersAgeofExtinction1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TransformersAgeofExtinction.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrolAvcilarArcadiaHikayeleri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\TrolAvcilarArcadiaHikayeleri.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Twilight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\movies\Twilight.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
