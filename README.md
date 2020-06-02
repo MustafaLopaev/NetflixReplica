@@ -1,9 +1,9 @@
 # NetflixReplica
 Used SQL server to implement media-service
 
-Login Page
+Windows forms
 
-![](images/loginPage.png)
+<img src="images/loginPage.png" alt="Login Activity"/> <img src="images/registerPage.png" alt="Register Activity"/>
 
 Register Page
 
