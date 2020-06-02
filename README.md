@@ -5,16 +5,6 @@ Windows forms
 
 <img src="images/loginPage.png" alt="Login Activity" Width="420"/> <img src="images/registerPage.png" alt="Register Activity" Width="420"/>
 
-Register Page
+<img src="images/mainPage.png" alt="Main Activity" Width="420"/> <img src="images/playerPage.png" alt="Player Activity" Width="420"/>
 
-![](images/registerPage.png)
-
-Main Page
-
-![](images/mainPage.png)
-
-
-Player Page
-
-![](images/playerPage.png)
 
