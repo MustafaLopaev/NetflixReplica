@@ -10,4 +10,4 @@ Used SQL server to implement media-service
 
 ## SQL Table Diagram
 
-<img src="images/sqlTabledDiagram.png" alt="SQL Table Diagram" Width="420"/>
+<img src="images/sqlTableDiagram.png" alt="SQL Table Diagram" Width="420"/>
