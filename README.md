@@ -3,7 +3,7 @@ Used SQL server to implement media-service
 
 Login Page
 
-![](images/loginPage.png)
+![](images/loginPage.png)(images/registerPage.png)
 
 Register Page
 
