@@ -1,5 +1,6 @@
 # NetflixReplica
 Used SQL server to implement media-service
 
+Login Page\n
 
-![Login Page](images/loginPage.png)
+![](images/loginPage.png)
