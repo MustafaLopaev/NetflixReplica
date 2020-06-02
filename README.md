@@ -3,7 +3,7 @@ Used SQL server to implement media-service
 
 Windows forms
 
-<img src="images/loginPage.png" alt="Login Activity"/> <img src="images/registerPage.png" alt="Register Activity"/>
+<img src="images/loginPage.png" alt="Login Activity" Width="420"/> <img src="images/registerPage.png" alt="Register Activity" Width="420"/>
 
 Register Page
 
