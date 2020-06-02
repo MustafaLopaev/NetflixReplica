@@ -17,3 +17,4 @@ Main Page
 Player Page
 
 ![](images/playerPage.png)
+
